@@ -1,0 +1,43 @@
+﻿body {
+    background: url('images/fogmount.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    min-height: 10vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+    margin: 30px 0;
+    margin-left: 1px;
+}
+.box {
+    width: 800px;
+    height: 950px;
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 0;
+    color: #fff;
+    font-family: Arial;
+}
+.resume {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-family: Bahnschrift;
+}

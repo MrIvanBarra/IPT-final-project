@@ -1,0 +1,175 @@
+﻿body {
+    background-image: url("images/cubeblack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*HEADBAR*/
+.headbar {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    word-spacing: 5px;
+    background-color: #BDC3C7;
+}
+
+.greetings {
+    font-weight: bold;
+    font-size: 20px;
+    color: #BDC3C7;
+}
+/*W3SCHOOLS*/
+.w_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100px;
+    margin-left: 60px;
+}
+
+.wslogo {
+    flex-basis: 40%;
+}
+
+.wtitle {
+    font-weight: bold;
+    font-size: 16px;
+    color: #CD6155;
+    text-decoration-line: underline;
+}
+
+.w3schools {
+    font-size: 16px;
+    color: #BDC3C7;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*9ANIME*/
+.anime_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anime_logo {
+    flex-basis: 40%;
+}
+
+.anime {
+    font-weight: bold;
+    font-size: 16px;
+    color: #CD6155;
+    text-decoration-line: underline;
+}
+
+.anime_content {
+    font-size: 16px;
+    color: #BDC3C7;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*TWITCH*/
+.stream_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitch_logo {
+    flex-basis: 40%;
+}
+
+.twitch_title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #CD6155;
+    text-decoration-line: underline;
+}
+
+.twitch_content {
+    font-size: 16px;
+    color: #BDC3C7;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*YOUTUBE*/
+.video_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube_logo {
+    flex-basis: 40%;
+}
+
+.youtube_title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #CD6155;
+    text-decoration-line: underline;
+}
+
+.youtube_content {
+    font-size: 16px;
+    color: #BDC3C7;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*TINYZONE*/
+.movie_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tinyzone_logo {
+    flex-basis: 40%;
+}
+
+.tinyzone_title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #CD6155;
+    text-decoration-line: underline;
+}
+
+.tinyzone_content {
+    font-size: 16px;
+    color: #BDC3C7;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.button {
+    text-align: right;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    font-size: 20px;
+    margin-left: 1250px;
+    background: #566573;
+    cursor:pointer;
+}
+
+    .button:hover {
+        background: #2C3E50;
+    }
+
+.button1:active {
+    background: #273746;
+}

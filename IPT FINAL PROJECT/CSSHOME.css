@@ -1,0 +1,199 @@
+﻿body {
+    background-image: url("images/tux.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headbar {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 25px;
+    padding: 8px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    word-spacing: 5px;
+    background-color: #424949;
+    border-radius: 5px;
+}
+
+.icon1_container {
+    display: flex;
+}
+
+.button1 {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    background: #566573;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 63px;
+}
+
+    .button1:hover {
+        background: #2C3E50;
+    }
+
+    .button1:active {
+        background: #273746;
+    }
+
+.button_icon {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    font-size: 70px;
+}
+
+.para1 {
+    width: 700px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #566573;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.icon2_container {
+    display: flex;
+}
+
+.button2 {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    background: #566573;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+    .button2:hover {
+        background: #2C3E50;
+    }
+
+    .button2:active {
+        background: #273746;
+    }
+
+.button_icon2 {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    font-size: 70px;
+}
+
+.para2 {
+    width: 700px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #566573;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.icon3_container {
+    display: flex;
+}
+
+.button3 {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    background: #566573;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+    .button3:hover {
+        background: #2C3E50;
+    }
+
+    .button3:active {
+        background: #273746;
+    }
+
+.button_icon3 {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    font-size: 70px;
+}
+
+.para3 {
+    width: 700px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #566573;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 20px;
+}
+.bottom {
+    color: #EBEDEF;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.button {
+    text-align: right;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 1250px;
+    background: #566573;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+    .button:hover {
+        background: #2C3E50;
+    }
+
+    .button:active {
+        background: #273746;
+    }

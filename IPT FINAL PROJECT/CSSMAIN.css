@@ -1,0 +1,161 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background:url('images/mount.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    min-height:10vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:70px;
+    cursor: pointer;
+    margin: 30px 0;
+    margin-left: 1px;
+}
+
+.menu{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+nav ul li a:hover {
+    color: darkred;
+
+
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.col-1{
+    flex-basis:40%;
+    position: relative;
+    margin-left: 10%;
+
+}
+    .col-1 h2 {
+        font-size: 80px;
+        font-family: 'Copperplate Gothic';
+        color: #641E16;
+    }
+.col-1 h3 {
+    font-size: 20px;
+    color: #707070;
+    font-weight: 100;
+    margin: 5px 0 5px;
+}
+
+button {
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: black;
+    background: linear-gradient(to right,#ED213A,#93291E);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.3s;
+    text-decoration-line: none;
+}
+    button img {
+        width: 30px;
+        display: none;
+        text-decoration-line: none;
+    }
+    button:hover img {
+        display: flex;
+        text-decoration-line: none;
+    }
+    button:hover {
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration-line: none;
+    }
+
+.col-2{
+    position:relative;
+    flex-basis:60%;
+    display: flex;
+    align-content:center;
+}
+.col-2 .klee{
+    width: 25%;
+    margin-left: 70%;
+    margin-top: 1%;
+
+
+}
+.box {
+    position: absolute;
+    right: 1px;
+    top: 30%;
+    background: linear-gradient(#485563,#29323c);
+    border-radius: 20px 0 0 20px;
+    height: 50%;
+    width: 130%;
+    z-index: -1;
+    transform: translateX(150px);
+    opacity: 0.8;
+    align-content:center;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    nav ul {
+        width: 100%;
+        background: linear-gradient(#ff469f,#ff6062);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+        nav ul li {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+            nav ul li a {
+                color: #fff;
+            }
+}
